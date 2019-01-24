@@ -1,0 +1,129 @@
+body {
+	background: gray;
+	font-variant: small-caps;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*			===== 			nav 			=====			*/
+nav {
+	height: 55px;
+	margin: 10px;
+	padding: 2px 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+/* li, not a 
+/* set to be inline-block */
+nav ul .navitem {
+	display: inline-block;
+	color: black;
+	letter-spacing: 2px;
+	margin: 0 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px; 
+}
+
+.rightside {
+	float: right;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul .navitem:hover {
+	background: gray;
+}
+
+/*fas is already black by default*/
+.fas {
+	color: black;
+}
+
+/*			===== 			end nav 			=====			*/
+
+.page {
+	font-weight: bold;
+	font-variant: small-caps;
+	width: 80%; /*80% of total page width*/
+	height: 2300px;
+	margin: 25px 10%; /* centers */
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.heading {
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* parent of img */
+.page p {
+	text-align: center;
+	width: 30%; /* 30% */
+	margin: 1.66%;
+}
+
+/* child of p */
+.page img {
+	width: 100%; /* 100% */
+	margin: 1.66% 0;
+	border: 1px solid black;
+}
+
+.page p, .page img {
+	display: inline-block; /* really for the p, img are inline blocks */
+	float: left;
+	height: 400px;
+}
+
+.page p:hover {
+	color: white;
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+/*===== START Footer =====*/
+.footer {
+	width: 90%;
+	margin: 0 5%;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.footer span {
+	float: left;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.footer .rightside {
+	float: right;
+}
+
+.footer span:hover {
+	background: gray;
+}
+
+.footer p {
+	margin: 10px;
+}
+
+/*===== END Footer =====*/
